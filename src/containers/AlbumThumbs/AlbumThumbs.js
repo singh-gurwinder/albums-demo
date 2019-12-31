@@ -48,7 +48,9 @@ export default class AlbumThumbs extends Component {
         }
         return (
             <div className="container">
-                {contents}
+                <div class="row">
+                    {contents}
+                </div>
             </div>
         )
     }
