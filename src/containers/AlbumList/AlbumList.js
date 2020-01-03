@@ -25,7 +25,9 @@ class AlbumList extends Component {
         ));
         return (
             <div className="container">
-                {albums}
+                <div className="row">
+                    {albums}
+                </div>
             </div>
         );
     }
