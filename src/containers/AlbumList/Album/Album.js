@@ -33,7 +33,7 @@ class Album extends Component {
 
     render() {
         return (
-            <div className="card text-center" style={landing} onClick={this.props.clicked}>
+            <div className="card text-center col-lg-5 mx-auto" style={landing} onClick={this.props.clicked}>
                 <div className="card-body" title={this.props.title}>
                     <h5 className="card-title">Album: {this.props.albumTitle}</h5>
                     <User user={this.state.user} />
